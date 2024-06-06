@@ -1,0 +1,1334 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@font-face {
+  font-family: "Neue Machina";
+  src: url("NeueMachina-Ultralight.eot");
+  src: local("Neue Machina Ultralight"), local("NeueMachina-Ultralight"),
+    url("NeueMachina-Ultralight.eot?#iefix") format("embedded-opentype"),
+    url("NeueMachina-Ultralight.woff2") format("woff2"),
+    url("NeueMachina-Ultralight.woff") format("woff"),
+    url("NeueMachina-Ultralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("NeueMachina-Light.eot");
+  src: local("Neue Machina Light"), local("NeueMachina-Light"),
+    url("NeueMachina-Light.eot?#iefix") format("embedded-opentype"),
+    url("NeueMachina-Light.woff2") format("woff2"),
+    url("NeueMachina-Light.woff") format("woff"),
+    url("NeueMachina-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("NeueMachina-Black.eot");
+  src: local("Neue Machina Black"), local("NeueMachina-Black"),
+    url("NeueMachina-Black.eot?#iefix") format("embedded-opentype"),
+    url("NeueMachina-Black.woff2") format("woff2"),
+    url("NeueMachina-Black.woff") format("woff"),
+    url("NeueMachina-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("NeueMachina-Regular.eot");
+  src: local("Neue Machina Regular"), local("NeueMachina-Regular"),
+    url("NeueMachina-Regular.eot?#iefix") format("embedded-opentype"),
+    url("NeueMachina-Regular.woff2") format("woff2"),
+    url("NeueMachina-Regular.woff") format("woff"),
+    url("NeueMachina-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("NeueMachina-Bold.eot");
+  src: local("Neue Machina Bold"), local("NeueMachina-Bold"),
+    url("NeueMachina-Bold.eot?#iefix") format("embedded-opentype"),
+    url("NeueMachina-Bold.woff2") format("woff2"),
+    url("NeueMachina-Bold.woff") format("woff"),
+    url("NeueMachina-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("NeueMachina-Medium.eot");
+  src: local("Neue Machina Medium"), local("NeueMachina-Medium"),
+    url("NeueMachina-Medium.eot?#iefix") format("embedded-opentype"),
+    url("NeueMachina-Medium.woff2") format("woff2"),
+    url("NeueMachina-Medium.woff") format("woff"),
+    url("NeueMachina-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("NeueMachina-Ultrabold.eot");
+  src: local("Neue Machina Ultrabold"), local("NeueMachina-Ultrabold"),
+    url("NeueMachina-Ultrabold.eot?#iefix") format("embedded-opentype"),
+    url("NeueMachina-Ultrabold.woff2") format("woff2"),
+    url("NeueMachina-Ultrabold.woff") format("woff"),
+    url("NeueMachina-Ultrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@import url("https://www.behance.net/gallery/143935055/Neue-Machina-v20-Free-Font/modules/813142133");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #09242c;
+}
+
+.header {
+  background: url(../img/fon.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* Добавляем необходимые стили для поля ввода */
+  /* Стилизация подсказки */
+}
+.header_line {
+  margin-left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1920px;
+}
+.header_logo {
+  font-size: 28px;
+  margin-top: 60px;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  color: #efe6e6;
+}
+.header .header_search {
+  border: none;
+  outline: none;
+}
+.header .header_search::-webkit-input-placeholder {
+  color: #a19b9b;
+}
+.header .header_search::-moz-placeholder {
+  color: #a19b9b;
+}
+.header .header_search:-ms-input-placeholder {
+  color: #a19b9b;
+}
+.header .header_search::-ms-input-placeholder {
+  color: #a19b9b;
+}
+.header .header_search::placeholder {
+  color: #a19b9b;
+}
+.header .header_search {
+  z-index: 1000;
+  width: 455px; /* Задайте ширину поля ввода по вашему усмотрению */
+  padding: 10px; /* Добавляем отступы вокруг текста внутри поля ввода */
+  font-size: 28px;
+  font-family: "Neue Machina";
+  font-weight: bold; /* Размер текста */
+  color: #efe6e6;
+  background-color: transparent; /* Цвет фона поля ввода */
+}
+.header .header_search::-webkit-input-placeholder {
+  font-family: "Neue Machina";
+  font-weight: bold;
+  font-size: 28px;
+}
+.header .header_search::-moz-placeholder {
+  font-family: "Neue Machina";
+  font-weight: bold;
+  font-size: 28px;
+}
+.header .header_search:-ms-input-placeholder {
+  font-family: "Neue Machina";
+  font-weight: bold;
+  font-size: 28px;
+}
+.header .header_search::-ms-input-placeholder {
+  font-family: "Neue Machina";
+  font-weight: bold;
+  font-size: 28px;
+}
+.header .header_search::placeholder {
+  font-family: "Neue Machina";
+  font-weight: bold;
+  font-size: 28px;
+}
+.header_poisk {
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  background: linear-gradient(
+    146.02deg,
+    rgba(5, 5, 5, 0.28) 2.46%,
+    rgba(0, 0, 0, 0) 109.35%
+  );
+
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  z-index: 2;
+  max-width: 60%;
+}
+.header_text {
+  font-size: 28px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #a19b9b;
+  padding-right: 142px;
+  margin-top: 90px;
+  padding-left: 90px;
+  max-width: 84%;
+}
+.header_lupa {
+  margin-top: 46px;
+}
+.header_lines {
+  padding-top: 7.5px;
+  margin-bottom: 30px;
+}
+.header_poisks {
+  padding: 90px 49px;
+  background-color: #00c2f1;
+}
+.header .glav_row {
+  margin: 450px 0px 150px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card_row {
+  margin-left: 300px;
+}
+.card_img {
+  position: absolute;
+  top: -30px;
+  left: 135%;
+}
+.card_temperatyra {
+  font-size: 180px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 30px;
+}
+.card_gorod {
+  max-width: 750px;
+  overflow-wrap: break-word;
+  font-size: 73px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 27px;
+}
+.card_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card_vremi {
+  font-size: 26px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-right: 10px;
+}
+.card_dennedeli {
+  font-size: 26px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-right: 9px;
+}
+.card_chislo {
+  font-size: 26px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+}
+.card_liner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card_oblako {
+  text-align: center;
+  padding-left: 15px;
+}
+.card_tuchki {
+  width: 100px;
+}
+.card_text {
+  text-align: center;
+  max-width: 200px;
+  font-size: 26px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+}
+.card_text:first-letter {
+  text-transform: uppercase;
+}
+.card_pravo {
+  position: relative;
+}
+.card_goroda {
+  z-index: 1000;
+}
+.card_goroda a {
+  color: #a19b9b;
+}
+.card_goroda a:hover {
+  color: #efe6e6;
+}
+.card_goroda li {
+  font-size: 28px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #a19b9b;
+  margin-bottom: 30px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.card_goroda li:last-child {
+  margin-bottom: 30px;
+}
+.card_goroda li:hover {
+  color: #efe6e6;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.card_liness {
+  margin-bottom: 30px;
+}
+.card_infa {
+  font-size: 28px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 30px;
+}
+.card_pogoda {
+  padding-right: 130px;
+}
+.card_pogoda li {
+  font-size: 24px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 30px;
+}
+.card_pogoda li:last-child {
+  margin-bottom: 70px;
+}
+.card_ramka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card_chislas li {
+  margin-left: 6px;
+  font-size: 24px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 30px;
+}
+
+.suggestions {
+  margin-top: 9px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1000000; /* Устанавливаем высокий z-index, чтобы подсказки были поверх остального контента */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(rgb(5, 5, 5)),
+    to(rgba(0, 0, 0, 0))
+  );
+  background: linear-gradient(
+    to bottom right,
+    rgb(5, 5, 5),
+    rgba(0, 0, 0, 0)
+  ); /* Цвет фона подсказок */
+  color: #efe6e6; /* Цвет текста подсказок */
+  border-radius: 5px; /* Скругляем углы рамки */
+  /* padding: 12px; Внутренний отступ */
+  font-size: 22px;
+  top: 150px; /* Расположение подсказок относительно верхнего края страницы */
+  left: 23%; /* Расположение подсказок относительно левого края страницы */
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); /* Центрирование по горизонтали */
+}
+
+.suggestions li {
+  z-index: 1;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0px 150px;
+}
+
+.city-link {
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  padding-top: 124px;
+  margin-bottom: 80px;
+}
+
+.pogodavpered_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0px -31px;
+}
+.pogodavpered_column {
+  padding: 0px 31px;
+}
+.cerd_cerds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 500px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(rgba(5, 5, 5, 0.4)),
+    to(rgba(0, 0, 0, 0))
+  );
+  background: linear-gradient(
+    to bottom right,
+    rgba(5, 5, 5, 0.4),
+    rgba(0, 0, 0, 0)
+  );
+  background-repeat: no-repeat;
+  text-align: center;
+  -webkit-transition: 0.7s, 0.7s;
+  transition: 0.7s, 0.7s;
+}
+.cerd_dennedeli {
+  padding-top: 25px;
+  margin-bottom: 55px;
+  font-size: 34px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #a19b9b;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.cerd_gradys1 {
+  margin-bottom: 55px;
+  font-size: 90px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #a19b9b;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.cerd_gradys2 {
+  margin-bottom: 55px;
+  font-size: 110px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #a19b9b;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.cerd_gradys3 {
+  margin-bottom: 55px;
+  font-size: 110px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #a19b9b;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.cerd_gradys4 {
+  margin-bottom: 55px;
+  font-size: 110px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #a19b9b;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.cerd_oblachko {
+  opacity: 30%;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.cerd_img {
+  width: 50px;
+}
+
+.cerd_text {
+  margin-top: auto;
+  font-size: 22px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #a19b9b;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  padding-bottom: 60px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.cerd_text::first-letter {
+  text-transform: uppercase;
+}
+.cerd:hover .cerd_cerds,
+.active .cerd_cerds {
+  min-width: 410px;
+}
+.cerd:focus .cerd_cerds {
+  min-width: 410px;
+}
+.cerd:hover .cerd_oblachko,
+.active .cerd_oblachko {
+  opacity: 100%;
+}
+.cerd:hover .cerd_text,
+.active .cerd_text {
+  color: #efe6e6;
+  font-size: 26px;
+  max-width: 400px;
+}
+.cerd:hover .cerd_gradys1,
+.active .cerd_gradys1 {
+  color: #efe6e6;
+  font-size: 128px;
+}
+.cerd:hover .cerd_gradys2 {
+  color: #efe6e6;
+  font-size: 128px;
+}
+.cerd:hover .cerd_gradys3 {
+  color: #efe6e6;
+  font-size: 128px;
+}
+.cerd:hover .cerd_gradys4 {
+  color: #efe6e6;
+  font-size: 128px;
+}
+.cerd:hover .cerd_dennedeli,
+.active .cerd_dennedeli {
+  color: #efe6e6;
+  font-size: 40px;
+}
+
+.pogodavtecheniedni {
+  margin-top: 144px;
+  display: flex;
+}
+
+.pogodavtecheniedni_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0px -75px;
+}
+.pogodavtecheniedni_column {
+  padding: 0px 75px;
+}
+.cardes_techeniedni {
+  margin-bottom: 97px;
+  font-size: 26px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #efe6e6;
+}
+.cardes_techeniedni:first-child {
+  margin-top: 135px;
+}
+.cardes_iinfa {
+  text-align: center;
+  max-width: 310px;
+  font-size: 26px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 45px;
+}
+.cardes_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: flex-start;
+  min-width: 250px;
+  max-width: 450px;
+}
+.cardes_images {
+  padding-left: 19px;
+  margin-right: auto;
+  padding-right: 10px;
+}
+.cardes_images img {
+  width: 50px;
+}
+.cardes_chisla {
+  padding-right: 19px;
+  margin-left: auto;
+  font-size: 64px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 62px;
+}
+.cardes_ohyhenie {
+  text-align: center;
+  font-size: 64px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 62px;
+}
+.cardes_veroit {
+  text-align: center;
+  font-size: 64px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  margin-bottom: 62px;
+}
+.cardes_veter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cardes_naprav {
+  margin-top: 30px;
+  height: 30px;
+}
+.cardes_napravlenie {
+  margin-top: 35px;
+  margin-right: 15px;
+  font-size: 26px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+}
+.cardes_skorost {
+  text-align: center;
+  font-size: 64px;
+  font-family: "Neue Machina";
+  font-weight: bold;
+  color: #efe6e6;
+  padding-bottom: 60px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: "Neue Machina";
+  justify-content: flex-end;
+  margin-left: -200px;
+  margin-bottom: 150px;
+}
+
+.attentions {
+  display: flex;
+  padding: 240px;
+  justify-content: space-between;
+}
+
+.attentions div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #fff;
+  max-width: 40%;
+  background: linear-gradient(
+    146.02deg,
+    rgba(5, 5, 5, 0.28) 2.46%,
+    rgba(0, 0, 0, 0) 109.35%
+  );
+  padding: 30px;
+  align-items: center;
+}
+
+.attentions div img {
+  max-width: 340px;
+}
+
+.attentions div h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32.81px;
+}
+
+.attentions div p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+}
+
+@media (max-width: 1621px) {
+  .card_temperatyra {
+    font-size: 130px;
+  }
+
+  .card_gorod {
+    font-size: 50px;
+  }
+
+  .card_line {
+    font-size: 36px;
+  }
+
+  .pogodavtecheniedni_row {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 20px;
+    margin: 0;
+  }
+
+  .header_text {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .header_poisk {
+    height: auto;
+  }
+
+  .header {
+    height: calc(100% + 147px);
+  }
+
+  .header_line {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .header_poisk {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .main {
+    max-width: 100% !important;
+    margin: 20px;
+  }
+
+  .pogodavpered_column {
+    padding: 0;
+  }
+
+  .cerd {
+    max-width: calc(100%) !important;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card_dennedeli {
+    font-size: 36px;
+  }
+
+  .cerd_gradys1 {
+    font-size: 56px;
+  }
+
+  .cerd:hover .cerd_gradys1 {
+    font-size: 72px;
+  }
+
+  .pogodavpered_row {
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .pogodavpered_column {
+    min-width: 0;
+    width: calc(50% - 20px) !important;
+  }
+
+  .cardes_ohyhenie,
+  .cardes_veroit,
+  .cardes_iinfa,
+  .cardes_skorost {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .cardes_naprav,
+  .cardes_napravlenie {
+    margin: 0 5px;
+    padding-bottom: 5px;
+    font-size: 22px;
+  }
+
+  .cardes_veter {
+    display: flex;
+    /* align-items: center; */
+    padding: 50px 0;
+    padding-top: 0;
+  }
+
+  .pogodavtecheniedni_row {
+    width: 100%;
+    margin: 0;
+  }
+
+  .cardes_techeniedni {
+    font-size: 16px;
+    margin: 50px 0;
+  }
+
+  .pogodavtecheniedni_column {
+    padding: 0 20px;
+  }
+
+  .cardes_techeniedni:first-child {
+    margin-top: 100px;
+  }
+
+  .cardes_chisla {
+    font-size: 16px;
+  }
+
+  .cardes_group {
+    min-width: 0;
+  }
+
+  .cardes_images img {
+    width: 30px;
+  }
+
+  .attentions {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .attentions div {
+    max-width: 100%;
+    inline-size: 60%;
+  }
+
+  .cerd_cerds {
+    display: flex;
+    align-items: center;
+  }
+
+  .cerd_text {
+    inline-size: 70%;
+    text-align: center;
+  }
+
+  .card_img {
+    left: 110%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 785px !important;
+  }
+
+  .container {
+    padding: 6px;
+  }
+
+  .header_text {
+    padding: 6px;
+  }
+
+  .card_temperatyra {
+    font-size: 56px;
+  }
+
+  .pogodavtecheniedni {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_logo {
+    padding: 0 20px;
+  }
+
+  .card_gorod {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .card_vremi {
+    font-size: 16px;
+  }
+
+  .card_tuchki {
+    width: 46px;
+  }
+
+  .card_text {
+    font-size: 16px;
+  }
+
+  .header_poisks {
+    display: none;
+  }
+
+  .header_text {
+    margin: 0;
+  }
+
+  .header_lines {
+    margin: 0;
+    width: 100%;
+    margin-bottom: -20px;
+  }
+
+  .header .header_search::-webkit-input-placeholder {
+    font-family: "Neue Machina";
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .header .header_search::-moz-placeholder {
+    font-family: "Neue Machina";
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .header .header_search:-ms-input-placeholder {
+    font-family: "Neue Machina";
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .header .header_search::-ms-input-placeholder {
+    font-family: "Neue Machina";
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .header .header_search::placeholder {
+    font-family: "Neue Machina";
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .header_search {
+    padding: 0 5px !important;
+  }
+
+  .city-link {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .card_goroda > li {
+    margin: 5px !important;
+  }
+
+  .card_infa {
+    font-size: 16px;
+  }
+
+  .card_pogoda li {
+    font-size: 16px;
+  }
+
+  .card_chislas li {
+    font-size: 16px !important;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .pogodavpered_row {
+    flex-direction: column !important;
+  }
+
+  .pogodavpered_column {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .cerd {
+    width: 100% !important;
+  }
+
+  .cerd_cerds {
+    width: 100% !important;
+  }
+
+  .pogodavpered_column {
+    padding: 20px;
+  }
+
+  .cardes_images {
+    margin-top: -3px;
+  }
+
+  .cerd_row {
+    width: 100%;
+  }
+
+  .cerd:hover {
+    transform: scale(1) !important;
+    width: 100% !important;
+  }
+
+  .cerd:hover .cerd_cerds {
+    min-width: 100%;
+    width: 100%;
+  }
+  .cerd:focus .cerd_cerds {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .cerd_cerds {
+    min-width: 0;
+    width: 100% !important;
+  }
+
+  .pogodavtecheniedni_column {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .cardes_iinfa {
+    font-size: 8px;
+  }
+
+  .cardes_veroit,
+  .cardes_ohyhenie,
+  .cardes_chisla,
+  .cardes_naprav,
+  .cardes_skorost {
+    font-size: 10px;
+  }
+
+  .cardes_techeniedni {
+    font-size: 12px;
+    margin-bottom: 55px;
+  }
+
+  .cardes_techeniedni:first-child {
+    margin-top: 70px;
+  }
+
+  .cardes_napravlenie {
+    font-size: 12px;
+  }
+
+  .cardes_naprav {
+    width: 10px;
+    height: 20px;
+  }
+
+  .cardes_images img {
+    width: 15px;
+  }
+
+  .attentions {
+    padding: 12px;
+  }
+
+  .attentions div {
+    max-width: 100%;
+  }
+
+  .attentions div h1 {
+    font-size: 18px;
+  }
+
+  .attentions div img {
+    max-width: 150px;
+  }
+
+  .attentions div p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.profile * {
+  font-family: sans-serif !important;
+}
+
+.profile {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+
+.profileMain {
+  position: relative;
+  padding: 10%;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background: linear-gradient(
+    146.02deg,
+    rgba(5, 5, 5, 0.28) 2.46%,
+    rgba(0, 0, 0, 0) 109.35%
+  );
+}
+
+.back {
+  position: absolute;
+  /* top: 100px; */
+  left: 10px;
+  width: 30px;
+  height: 30px; 
+}
+
+.title {
+  font-family: Neue Machina;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 50.18px;
+}
+
+.myCitis {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.city {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #efe6e6;
+  color: #fff;
+}
+
+.city section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.city p {
+  font-family: Neue Machina;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30.88px;
+}
+
+.profile .city {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 21.23px;
+  text-align: left;
+}
+
+.city.active {
+  transform: scale(1.05);
+  border: 5px solid #efe6e6;
+}
+
+.profile label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #a19b9b;
+}
+
+.profile label img {
+  width: 15px;
+}
+
+.profile label input {
+  background: none;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  color: #fff;
+}
+
+.profile input::placeholder {
+  font-size: 16px;
+}
+
+.profile .suggestions {
+  left: 50%;
+  top: 35%;
+}
+
+.profile > div > button {
+  background: none;
+  border: 2px solid #efe6e6;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.profile > div section {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 23.16px;
+}
+
+.profile section div {
+  display: flex;
+  align-items: center;
+  border: 1px solid #efe6e6;
+  justify-content: flex-end;
+  width: 60px;
+  height: 30px;
+}
+
+.profile section span {
+  height: 30px;
+  width: 30px;
+  background: #fff;
+}
+
+@media (min-width: 1200px) {
+  .cardes_images img {
+    width: 70px;
+  }
+}

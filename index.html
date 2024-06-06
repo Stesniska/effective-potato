@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>WeatherSphere</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_line">
+        <div class="header_logo">WeatherSphere</div>
+        <div class="card_rows main">
+          <div class="card_temperatyra">°</div>
+          <div class="card_liner">
+            <div class="card_odna">
+              <div class="card_gorod">Ярославль</div>
+              <div class="card_line">
+                <div class="card_vremi"></div>
+                <div class="card_dennedeli"></div>
+                <div class="card_chislo"></div>
+              </div>
+            </div>
+            <div class="card_oblako">
+              <img class="card_tuchki" src="" alt="Погодные иконки" />
+              <div class="card_text">Дождливо</div>
+            </div>
+          </div>
+        </div>
+        <form class="header_poisk" id="form">
+          <div class="header_text">
+            <input
+              id="city-input"
+              class="header_search"
+              type="search"
+              placeholder="Другой город"
+            />
+            <ul id="suggestions" class="suggestions"></ul>
+            <div class="header_lines">
+              <img src="img/line1.jpg" alt="" />
+            </div>
+            <div class="card_pravo">
+              <ul class="card_goroda">
+                <li>
+                  <a href="#" class="city-link" data-city="Москва">Москва</a>
+                </li>
+                <li>
+                  <a href="#" class="city-link" data-city="Санкт-Петербург"
+                    >Санкт-Петербург</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="city-link" data-city="Архангельск"
+                    >Архангельск</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="city-link" data-city="Новосибирск"
+                    >Новосибирск</a
+                  >
+                </li>
+              </ul>
+              <img class="card_img" src="img/Frame 39.png" alt="" />
+              <div class="card_liness">
+                <img src="img/Line 2.png" alt="" />
+              </div>
+              <div class="card_infa">Информация о погоде</div>
+              <div class="card_ramka">
+                <ul class="card_pogoda">
+                  <li>Облачность</li>
+                  <li>Порывы ветра</li>
+                  <li>Влажность</li>
+                </ul>
+                <ul class="card_chislas">
+                  <li class="card_oblachnost">72%</li>
+                  <li class="card_poryvy">2.3 м/с</li>
+                  <li class="card_vlazhnost">76%</li>
+                </ul>
+              </div>
+              <div class="card_lines">
+                <img src="img/Line 2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="header_lupa" id="form">
+            <a href="" id="search-btn" class="header_poisks">
+              <img src="img/Vector.png" alt="#" />
+            </a>
+          </div>
+        </form>
+      </div>
+      <div class="glav_row">
+        <div class="glav_column">
+          <div class="glav_card card"></div>
+        </div>
+      </div>
+      <div class="glav_column">
+        <div class="glav_card card">
+          <div class="card_row"></div>
+        </div>
+      </div>
+    </div>
+    <div class="pogodavpered">
+      <div class="container">
+        <div class="pogodavpered_title title">
+          Прогноз погоды на 3 дня вперед
+        </div>
+        <div class="pogodavpered_row"></div>
+      </div>
+    </div>
+    <div class="pogodavtecheniedni">
+      <div class="container">
+        <div class="pogodavtecheniedni_row">
+          <div class="pogodavtecheniedni_column">
+            <div class="pogodavtecheniedni_cardes cardes">
+              <div class="cardes_row">
+                <div class="cardes_techeniedni">Утро</div>
+                <div class="cardes_techeniedni">День</div>
+                <div class="cardes_techeniedni">Вечер</div>
+                <div class="cardes_techeniedni">Ночь</div>
+              </div>
+            </div>
+          </div>
+          <div class="pogodavtecheniedni_column">
+            <div class="pogodavtecheniedni_cardes cardes">
+              <div class="cardes_row">
+                <div class="cardes_iinfa">Явления, температура °C</div>
+                <div class="cardes_group">
+                  <div class="cardes_images">
+                    <img
+                      class="cardes_images0"
+                      src="img/Pogoda/Downpour.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="cardes_chisla cardes_chisla0">-3°</div>
+                </div>
+                <div class="cardes_group">
+                  <div class="cardes_images">
+                    <img
+                      class="cardes_images1"
+                      src="img/Pogoda/Clear.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="cardes_chisla cardes_chisla1">0°</div>
+                </div>
+                <div class="cardes_group">
+                  <div class="cardes_images">
+                    <img
+                      class="cardes_images2"
+                      src="img/Pogoda/Cloudy.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="cardes_chisla cardes_chisla2">01°</div>
+                </div>
+                <div class="cardes_group">
+                  <div class="cardes_images">
+                    <img
+                      class="cardes_images3"
+                      src="img/Pogoda/Downpour.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="cardes_chisla cardes_chisla3">-20°</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pogodavtecheniedni_column">
+            <div class="pogodavtecheniedni_cardes cardes">
+              <div class="cardes_row">
+                <div class="cardes_iinfa">Ощущается как °C</div>
+                <div class="cardes_ohyhenie cardes_ohyhenie0">-5°</div>
+                <div class="cardes_ohyhenie cardes_ohyhenie1">03°</div>
+                <div class="cardes_ohyhenie cardes_ohyhenie2">04°</div>
+                <div class="cardes_ohyhenie cardes_ohyhenie3">-2°</div>
+              </div>
+            </div>
+          </div>
+          <div class="pogodavtecheniedni_column">
+            <div class="pogodavtecheniedni_cardes cardes">
+              <div class="cardes_row">
+                <div class="cardes_iinfa">Давление мм. рт. ст.</div>
+                <div class="cardes_veroit cardes_veroit0">2%</div>
+                <div class="cardes_veroit cardes_veroit1">7%</div>
+                <div class="cardes_veroit cardes_veroit2">5%</div>
+                <div class="cardes_veroit cardes_veroit3">80%</div>
+              </div>
+            </div>
+          </div>
+          <div class="pogodavtecheniedni_column">
+            <div class="pogodavtecheniedni_cardes cardes">
+              <div class="cardes_row">
+                <div class="cardes_iinfa">Влажность воздуха %</div>
+                <div class="cardes_veroit cardes_humidity0">82%</div>
+                <div class="cardes_veroit cardes_humidity1">87%</div>
+                <div class="cardes_veroit cardes_humidity2">85%</div>
+                <div class="cardes_veroit cardes_humidity3">90%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="attentions">
+      <div>
+        <img src="./img/ice.png" alt="" />
+        <h1>"Предупреждение о гололедице"</h1>
+        <p>
+          Повышен риск образования гололеда на дорогах и тротуарах. Пожалуйста,
+          будьте осторожны и используйте дополнительные меры предосторожности
+          при передвижении на улице, такие как антискользящая обувь и
+          дополнительные поддерживающие устройства.
+        </p>
+      </div>
+      <div>
+        <img src="./img/snowball.png" alt="" />
+        <h1>"Предупреждение о снегопаде"</h1>
+        <p>
+          Ожидается сильный снегопад с ухудшением видимости на дорогах.
+          Пожалуйста, планируйте свои поездки заранее, убедитесь, что ваше
+          автомобиль оборудован зимней резиной, и помните о возможных задержках
+          в движении.
+        </p>
+      </div>
+    </div> -->
+  </body>
+  <script src="js/Pogoda.js"></script>
+</html>

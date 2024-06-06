@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="profile">
+    <div class="profileMain">
+      <h1 class="title">Здравстуйте, Имя!</h1>
+      <img src="./img/ic_back.svg" onclick="back()" alt="" class="back" />
+      <label>
+        <img src="./img/Vector.png" alt="" />
+        <input
+          type="text"
+          placeholder="Введите местоположение "
+          id="city-input"
+          class="header_search"
+        />
+      </label>
+      <ul id="suggestions" class="suggestions sp"></ul>
+      <div class="myCitis"></div>
+      <button class="clear">Сбросить</button>
+      <section>
+        <p>Уведомления о погоде</p>
+        <div><span></span></div>
+      </section>
+    </div>
+  </body>
+  <script src="./js/profile.js"></script>
+</html>
